@@ -1,6 +1,7 @@
-import Card from "../Card";
 import ExpenseItem from "./ExpenseItem";
+import Card from "../UI/Card";
 import "./Expenses.css";
+
 function Expenses(props) {
   return (
     <Card className="expenses">
