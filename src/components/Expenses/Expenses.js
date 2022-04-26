@@ -5,10 +5,13 @@ import ExpensesFilter from "./ExpensesFilter";
 import { useState } from "react";
 
 function Expenses(props) {
+
   const [filteredYear, setFilteredYear] = useState("2022");
+
   const filterChangeHandler = (expenseyear) => {
     setFilteredYear(expenseyear);
   };
+  
   return (
     <div>
       <Card className="expenses">

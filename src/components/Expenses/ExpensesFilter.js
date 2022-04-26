@@ -5,6 +5,7 @@ const ExpensesFilter = (props) => {
     // eslint-disable-next-line no-restricted-globals
     props.onChangeFilter(event.target.value);
   };
+  
   return (
     <div className="expenses-filter">
       <div className="expenses-filter__control">
